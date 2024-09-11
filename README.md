@@ -1,5 +1,4 @@
 # AI-Captcha_Cracker
-
 I have utilized the CNN model and LSTM to successfully decipher the captchas.
 
 ## Overview
@@ -12,13 +11,16 @@ Below is an image showing the accuracy of the model during training:
 
 ![Model Accuracy](output.png)
 
-**The model accuracy is above 99%.**
+## Data Scraping
+
+In addition to decoding captchas, this project also includes a data scraping component. The code interacts with a website that requires bypassing captchas to collect data. This functionality is implemented using various techniques and libraries.
+
+Usually sites introduces captchas to prevent the data scrapping done in automated way but not with help of machine learning computers can even bypass the captchas.
 
 ## Requirements
 
 The following Python libraries are required to run the code:
 
-- `os`: Standard library for interacting with the operating system.
 - `numpy`: For numerical operations.
 - `pandas`: For data manipulation and analysis.
 - `matplotlib`: For plotting and visualizing data.
